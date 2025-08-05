@@ -4,7 +4,7 @@ import SearchInput from "./SearchInput";
 export default function Header() {
   return (
     <div className="flex items-center justify-between px=4 border-b h-14">
-      <div className="flex items-center space-x-3 text-sm ml-4">
+      <div className="flex items-center space-x-3 text-sm ml-10">
         <Link to="/" className="text-lg font-bold">
           NPM Registry
         </Link>
